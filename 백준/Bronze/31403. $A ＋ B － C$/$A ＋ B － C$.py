@@ -1,5 +1,6 @@
-arr = [input() for _ in range(3)]
+a = input()
+b = input()
+c = int(input())
 
-print(int(arr[0]) + int(arr[1]) - int(arr[2]))
-
-print(int(arr[0]+arr[1]) - int(arr[2]))
+print(int(a) + int(b) - c)
+print(int(a+b) - c)
